@@ -166,6 +166,74 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-spring笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/triplekill/2022/05/27/spring%E7%AC%94%E8%AE%B0/">spring笔记</a>
+    </h1>
+  
+
+        
+        <a href="/triplekill/2022/05/27/spring%E7%AC%94%E8%AE%B0/" class="archive-article-date">
+  	<time datetime="2022-05-27T06:08:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="spring笔记"><a href="#spring笔记" class="headerlink" title="spring笔记"></a>spring笔记</h2><h4 id="1-设计理念"><a href="#1-设计理念" class="headerlink" title="1. 设计理念"></a>1. 设计理念</h4><p> Spring 先做基础构架，然后迭代完善</p>
+<h4 id="2-环境"><a href="#2-环境" class="headerlink" title="2. 环境"></a>2. 环境</h4><p> 从 Spring Framework 5.0 开始，Spring 至少需要 Java EE 7 级别(例如 Servlet 3.1，JPA 2.1)-同时提供与 Java EE 8 级别的较新 API 的现成集成。 Servlet 4.0，JSON 绑定 API)在运行时遇到。这样可以使 Spring 与例如 Tomcat 8 和 9，WebSphere 9 和 JBoss EAP 7.<br> 在 Java EE 和 Spring 的早期，创建了应用程序以将其部署到应用程序服务器。今天，借助 Spring Boot，可以以对开发人员和云友好的方式创建应用程序，并嵌入 Servlet 容器，并且可以轻松更改。从 Spring Framework 5 开始，WebFlux 应用程序甚至不直接使用 Servlet API，并且可以在非 Servlet 容器的服务器(例如 Netty)上运行。</p>
+<h4 id="3-系列产品"><a href="#3-系列产品" class="headerlink" title="3. 系列产品"></a>3. 系列产品</h4><p> 除了 Spring Framework，还有其他项目，例如 Spring Boot，Spring Security，Spring Data，Spring Cloud，Spring Batch 等</p>
+<h4 id="4-入门"><a href="#4-入门" class="headerlink" title="4.入门"></a>4.入门</h4><p> 您可以使用start.spring.io生成基本项目，也可以遵循“入门”指南之一，例如开始构建 RESTful Web 服务。这些指南不仅易于理解，而且非常注重任务，并且大多数基于 Spring Boot。它们还涵盖了 Spring 产品组合中的其他项目，您在解决特定问题时可能要考虑这些项目。</p>
+<h4 id="5-工具"><a href="#5-工具" class="headerlink" title="5. 工具"></a>5. 工具</h4><p> idea 专业版(花钱)<br> sts4 for eclipse（free）<br> sts4 for vscode（free）</p>
+<h4 id="6-开始向导"><a href="#6-开始向导" class="headerlink" title="6. 开始向导"></a>6. 开始向导</h4><p> <a target="_blank" rel="noopener" href="https://spring.io/guides">https://spring.io/guides</a></p>
+<h6 id="a-生产-restful-的-web-service-x2F-用spring的-Actuator-生产-x2F-多媒体的restful-web-service"><a href="#a-生产-restful-的-web-service-x2F-用spring的-Actuator-生产-x2F-多媒体的restful-web-service" class="headerlink" title="a. 生产 restful 的 web service&#x2F; 用spring的 Actuator 生产&#x2F;多媒体的restful web service"></a>a. 生产 restful 的 web service&#x2F; 用spring的 Actuator 生产&#x2F;多媒体的restful web service</h6><h6 id="b-消费-restful-的-web-service-x2F-用redias代理-x2F-用RabbitMQ实现-消息生产-和-订阅（消费）-x2F-用JMS"><a href="#b-消费-restful-的-web-service-x2F-用redias代理-x2F-用RabbitMQ实现-消息生产-和-订阅（消费）-x2F-用JMS" class="headerlink" title="b. 消费 restful 的 web service&#x2F; 用redias代理&#x2F;用RabbitMQ实现 消息生产 和 订阅（消费）&#x2F;用JMS"></a>b. 消费 restful 的 web service&#x2F; 用redias代理&#x2F;用RabbitMQ实现 消息生产 和 订阅（消费）&#x2F;用JMS</h6><h6 id="c-定时任务-x2F-建立batch服务"><a href="#c-定时任务-x2F-建立batch服务" class="headerlink" title="c. 定时任务&#x2F; 建立batch服务"></a>c. 定时任务&#x2F; 建立batch服务</h6><h6 id="d-VS-Code-x2F-maven建项目-x2F-gradle建项目"><a href="#d-VS-Code-x2F-maven建项目-x2F-gradle建项目" class="headerlink" title="d. VS Code&#x2F;maven建项目&#x2F; gradle建项目"></a>d. VS Code&#x2F;maven建项目&#x2F; gradle建项目</h6><h6 id="e-用jdbc访问关系型数据库-x2F-使用Neo4j-非关系型数据库（NoSQL）-x2F-使用-Gemfire-分布式缓存-x2F-用integration-获取，处理数据并写入文件"><a href="#e-用jdbc访问关系型数据库-x2F-使用Neo4j-非关系型数据库（NoSQL）-x2F-使用-Gemfire-分布式缓存-x2F-用integration-获取，处理数据并写入文件" class="headerlink" title="e. 用jdbc访问关系型数据库&#x2F;使用Neo4j 非关系型数据库（NoSQL）&#x2F;使用 Gemfire 分布式缓存&#x2F;用integration 获取，处理数据并写入文件"></a>e. 用jdbc访问关系型数据库&#x2F;使用Neo4j 非关系型数据库（NoSQL）&#x2F;使用 Gemfire 分布式缓存&#x2F;用integration 获取，处理数据并写入文件</h6><h6 id="f-文件上传"><a href="#f-文件上传" class="headerlink" title="f. 文件上传"></a>f. 文件上传</h6><h6 id="g-LDAP用户鉴权-x2F-web应用加密"><a href="#g-LDAP用户鉴权-x2F-web应用加密" class="headerlink" title="g. LDAP用户鉴权&#x2F;web应用加密"></a>g. LDAP用户鉴权&#x2F;web应用加密</h6><h6 id="h-表单校验"><a href="#h-表单校验" class="headerlink" title="h. 表单校验"></a>h. 表单校验</h6>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/triplekill/2022/05/27/spring%E7%AC%94%E8%AE%B0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-缘起" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
